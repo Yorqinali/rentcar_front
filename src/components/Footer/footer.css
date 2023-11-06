@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
+.footer {
+  max-width: 1600px;
+  width: 100%;
+  height: 412px;
+  background-color: #000000;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.title {
+  max-width: 380px;
+  width: 100%;
+  height: 253px;
+  padding: 0px 15px 5px 15px;
+}
+.title h4 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-bottom: 21px;
+}
+.title p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  margin-top: 19px;
+}
+hr {
+  width: 80px;
+  height: 2px;
+  background-color: #fff;
+}
+.bottom {
+  max-width: 1600px;
+  width: 100%;
+  height: 50px;
+  background-color: #ff0000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about {
+  max-width: 380px;
+  width: 100%;
+  height: 253px;
+  padding: 0px 15px;
+}
+.about h4 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-bottom: 21px;
+}
+.footer-a{
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.about p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  margin-top: 20px;
+}
+.social-media {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+.news {
+  max-width: 380px;
+  width: 100%;
+  height: 253px;
+  padding: 0px 15px;
+}
+.news h4 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-bottom: 21px;
+}
+.news p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  margin-top: 20px;
+  margin-bottom: 19.37px;
+}
+#email {
+  width: 350px;
+  height: 40px;
+  padding: 10.5px 17px;
+  border: 2px solid #f00;
+  background: #fff;
+  margin-bottom: 16px;
+}
+.footer-btn {
+  width: 350px;
+  height: 51px;
+  border: 1px solid #f00;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-transform: uppercase;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #a29bfe;
+}
+.footer-btn:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #a29bfe;
+}

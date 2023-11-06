@@ -1,0 +1,9 @@
+.header2{
+  max-width: 1600px;
+  width: 100%;
+  height: 291px;
+  background-image: url(./images/header2.png);
+  background-repeat: no-repeat;
+  border-bottom: 10px solid #F00;
+  margin: 0 auto;
+}

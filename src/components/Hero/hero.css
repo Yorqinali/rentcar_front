@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
+.hero {
+  max-width: 1600px;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hero-h1 {
+  font-family: "Merriweather", serif;
+  color: #fff;
+  text-align: center;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 74.4px;
+  letter-spacing: -1.24px;
+}
+.hero-span {
+  color: #f00;
+  font-family: "Merriweather", serif;
+    font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 74.4px;
+  letter-spacing: -1.24px;
+}
+
+.liner {
+  position: absolute;
+  bottom: 40px;
+  max-width: 1600px;
+  width: 100%;
+  height: 20px;
+  background: repeating-linear-gradient(135deg, #FF0000 0 15px,#0000 0 20px) left top,
+    repeating-linear-gradient( 45deg, #FF0000 0 15px,#0000 0 20px) left bottom;
+  background-size: 300% 50%;
+  background-repeat: no-repeat;
+  animation: i4 20s infinite linear;
+}
+
+@keyframes i4 {
+  100% {
+    background-position: top right,bottom right
+  }
+}
